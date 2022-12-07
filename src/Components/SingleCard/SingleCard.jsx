@@ -3,8 +3,6 @@ import { TiTick } from "react-icons/ti";
 import "./singleCard.css";
 
 const SingleCard = ({ user }) => {
-  console.log(user);
-
   const { name, profileImg, city, gender, industry, skills, isVerified } = user;
 
   return (
